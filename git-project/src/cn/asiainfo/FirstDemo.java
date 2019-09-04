@@ -15,4 +15,9 @@ public class FirstDemo {
 		System.out.println("66666666");
 		System.out.println("77777777");
 	}
+
+	@Override
+	public boolean equals(Object obj) {
+		return super.equals(obj);
+	}
 }
